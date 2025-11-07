@@ -2,7 +2,7 @@
 
 # 👋 Hey, I'm Jeevan! Welcome to my digital workshop 🛠️
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=CBA6F7&center=true&vCenter=true&width=700&lines=Building+Intelligent+Robotic+Systems+%F0%9F%A4%96;MS+Robotics+%40+ASU+%7C+3.78+GPA;From+Simulation+to+Real+World+%F0%9F%8C%89;Research+in+RL+%26+Soft+Robotics" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=CBA6F7&center=true&vCenter=true&width=700&lines=Building+Intelligent+Robotic+Systems+%F0%9F%A4%96;From+Simulation+to+Real+World+%F0%9F%8C%89;Research+in+RL+%26+Soft+Robotics+%F0%9F%A6%BE" alt="Typing SVG" />
 
 <br>
 
@@ -99,27 +99,6 @@ ROS 2 integration of 12-DOF quadruped + 6-DOF UR5 arm with custom control module
 </td>
 <td width="50%" valign="top">
 
-### 🗺️ Drift-Reduced Semantic Visual Odometry
-
-<div align="center">
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQzNnNoc2F3emZxOW84b2RlZnNjZzh3MGx3eHh4dWFsNXUxaGRvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/69iv77x8e5NMA/giphy.gif" width="400" height="220">
-</div>
-
-**Neural Visual Navigation**
-
-Co-developed novel system combining OCC-VO feature tracking with UC-NeRF neural network to refine camera position.
-
-📊 **34% position error reduction**  
-🎯 **IoU: 0.78 vs 0.51 in textureless environments**
-
-**Tech**: PyTorch, NeRF, Visual Odometry
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### 🐢 Nav-Fusion: TurtleBot4 Autonomous Navigation
 
 <div align="center">
@@ -136,6 +115,10 @@ Deployed Nav2 stack on TurtleBot4, fusing RPLIDAR, OAK-D camera, and IMU data wi
 **Tech**: ROS 2, Nav2, Cartographer, EKF
 
 </td>
+
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🎵 VocaLift - Assistive Audio Translation
@@ -155,6 +138,25 @@ Engineered full-cycle pipeline to convert text-to-hum and hum-to-text using LSTM
 **Tech**: LSTM, Audiocraft, librosa, Flask
 
 </td>
+<td width="50%" valign="top">
+
+### 🗺️ Drift-Reduced Semantic Visual Odometry
+
+<div align="center">
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQzNnNoc2F3emZxOW84b2RlZnNjZzh3MGx3eHh4dWFsNXUxaGRvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/69iv77x8e5NMA/giphy.gif" width="400" height="220">
+</div>
+
+**Neural Visual Navigation**
+
+Co-developed novel system combining OCC-VO feature tracking with UC-NeRF neural network to refine camera position.
+
+📊 **34% position error reduction**  
+🎯 **IoU: 0.78 vs 0.51 in textureless environments**
+
+**Tech**: PyTorch, NeRF, Visual Odometry
+
+</td>
+
 </tr>
 
 <tr>
@@ -172,6 +174,7 @@ RASA + GPT-3.5 pipeline with ChromaDB vector database processing 50K medical doc
 
 ✨ **68% reduction in incorrect information**  
 🎯 **92% intent accuracy**
+
 
 **Tech**: RASA, GPT-3.5, ChromaDB, RAG
 
