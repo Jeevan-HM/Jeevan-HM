@@ -134,7 +134,7 @@ Text-to-hum and hum-to-text translation tool using LSTM over Mel-spectrograms.
 ### 🏥 RAG Healthcare Chatbot
 
 <div align="center">
-<img src="https://media.giphy.com/media/XH2zrhRuHC1Q0THAc1/giphy.gif" width="400" height="220">
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDZienhqMmZucjl0ejM5MjRjYWJ6MXVicDU0ZHVsM3V6NGg5dzBtMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XH2zrhRuHC1Q0THAc1/giphy.gif" width="400" height="220">
 </div>
 
 **AI Medical Assistant**
