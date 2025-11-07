@@ -69,28 +69,6 @@ ROS 2 integration of 12-DOF quadruped + 6-DOF UR5 arm with Flask web interface f
 </td>
 <td width="50%" valign="top">
 
-### 🗺️ Drift-Reduced Semantic Visual Odometry
-
-<div align="center">
-<!-- <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnk1M21lejI0dXgyNHZkMHE4Y2VqbXZzZWZoY3Uzcms0bWgwNXplOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cmyrAFR9GcuJQ2AumN/giphy.gif" width="400" height="220"> -->
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQzNnNoc2F3emZxOW84b2RlZnNjZzh3MGx3eHh4dWFsNXUxaGRvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/69iv77x8e5NMA/giphy.gif" width="400" height="220">
-</div>
-
-**Neural Visual Navigation**
-
-OCC-VO + UC-NeRF fusion system for urban navigation.
-
-📊 **34% position error reduction**  
-🎯 **IoU: 0.78 vs 0.51 in textureless environments**
-
-**Tech**: PyTorch, NeRF, Visual Odometry
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### 🐢 Nav-Fusion: TurtleBot4 Autonomous Navigation
 
 <div align="center">
@@ -107,6 +85,10 @@ RPLIDAR + OAK-D + IMU fusion with EKF, Cartographer SLAM, and Nav2 planning.
 **Tech**: ROS 2, Nav2, Cartographer, EKF
 
 </td>
+
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🎵 VocaLift - Assistive Audio Translation
@@ -126,6 +108,26 @@ Text-to-hum and hum-to-text translation tool using LSTM over Mel-spectrograms.
 **Tech**: LSTM, Audiocraft, librosa, Flask
 
 </td>
+<td width="50%" valign="top">
+
+### 🗺️ Drift-Reduced Semantic Visual Odometry
+
+<div align="center">
+<!-- <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnk1M21lejI0dXgyNHZkMHE4Y2VqbXZzZWZoY3Uzcms0bWgwNXplOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cmyrAFR9GcuJQ2AumN/giphy.gif" width="400" height="220"> -->
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQzNnNoc2F3emZxOW84b2RlZnNjZzh3MGx3eHh4dWFsNXUxaGRvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/69iv77x8e5NMA/giphy.gif" width="400" height="220">
+</div>
+
+**Neural Visual Navigation**
+
+OCC-VO + UC-NeRF fusion system for urban navigation.
+
+📊 **34% position error reduction**  
+🎯 **IoU: 0.78 vs 0.51 in textureless environments**
+
+**Tech**: PyTorch, NeRF, Visual Odometry
+
+</td>
+
 </tr>
 
 <tr>
