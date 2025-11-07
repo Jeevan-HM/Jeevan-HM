@@ -337,7 +337,9 @@ interests = {
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Thanks%20for%20Visiting!&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%"/>
 
 ---
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 **⭐ From [Jeevan-HM](https://github.com/Jeevan-HM) • Building the future of intelligent robotics 🤖**
 
 </div>
+
