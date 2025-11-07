@@ -1,8 +1,8 @@
 <div align="center">
 
-# 👋 Hey, I'm Jeevan!
+# 👋 Hey, I'm Jeevan! Welcome to my digital workshop 🛠️
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=CBA6F7&center=true&vCenter=true&width=700&lines=Building+Intelligent+Robotic+Systems+%F0%9F%A4%96;MS+Robotics+%40+ASU+%7C+3.78+GPA;Research+in+RL+%26+Soft+Robotics+%F0%9F%94%AC" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=CBA6F7&center=true&vCenter=true&width=700&lines=Building+Intelligent+Robotic+Systems+%F0%9F%A4%96;MS+Robotics+%40+ASU+%7C+3.78+GPA;From+Simulation+to+Real+World+%F0%9F%8C%89;Research+in+RL+%26+Soft+Robotics" alt="Typing SVG" />
 
 <br>
 
@@ -11,38 +11,68 @@
 [![YouTube](https://img.shields.io/badge/YouTube-F38BA8?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@jeevanhm3872)
 [![Email](https://img.shields.io/badge/Email-FAB387?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevanhm308@gmail.com)
 
-
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 
 </div>
 
 ---
 
-## 🎯 About Me
+## 🎯 What Gets Me Out of Bed Every Morning
+
+<img align="right" alt="Robot Animation" width="350" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+
+I'm on a mission to make robots **smarter, more autonomous, and actually useful in the real world**. Currently grinding through my M.S. in Robotics at Arizona State University (3.78 GPA), I spend my days teaching machines to learn, adapt, and navigate our messy, unpredictable world.
+
+**Here's what I'm obsessed with:**
+- 🧠 Making robots learn from experience (Reinforcement Learning is my jam)
+- 🌉 Bridging that annoying sim-to-real gap (because robots trained in simulation shouldn't panic in reality)
+- 🤖 Multi-robot coordination (teaching robots to play nice together)
+- 💨 Soft robotics with pneumatic systems (squishy robots are cool!)
+- 🛰️ Computer vision that actually works at scale
+
+
+<br clear="right"/>
+
+---
+
+## 🔬 Research That Actually Matters
 
 <table>
 <tr>
-<td width="60%">
+<td width="50%" valign="top">
 
-I'm a **Robotics MS student at Arizona State University** focused on building autonomous systems through reinforcement learning, computer vision, and advanced control systems.
+### 🦾 RISE Lab @ ASU
+Working on **Physical Reservoir Computing for soft robotic actuators** achieving millisecond response time. I'm developing data-driven control models that analyze pressure sensor data to predict pneumatic system behavior in real-time.
 
-**Current Research:**
-- 🦾 **RISE Lab**: Physical Reservoir Computing for soft robotic actuators with millisecond response time
-- 🤖 **Research Aide**: Multi-agent RL for quadruped locomotion (89% success rate)
+**The Challenge:** Built automated data collection system using ROS and ZMQ protocol to synchronize pressure sensors (10Hz) with motion capture (120Hz), processing 10,000+ data points for training.
 
-**Previous:**
-- 🔬 **Machine Learning Engineer @ Jupiter AI Labs**: Computer vision & NLP systems
+**The Impact:** Enabling safer human-robot interaction and more adaptable robots for unstructured environments.
 
 </td>
-<td width="40%">
+<td width="50%" valign="top">
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="350" height="240">
-</div>
+### 🐕 Research Aide @ ASU
+Working on **multi-agent reinforcement learning for quadruped locomotion**. Trained AI walking patterns using PPO over 10M iterations with 16 parallel simulations, achieving **89% success rate** in 5m forward locomotion tasks.
+
+**The Innovation:** Transferred simulation-trained controllers to physical robot using domain randomization, developed web dashboard displaying joint positions and LiDAR data at 20Hz, reducing movement instability by 40%.
 
 </td>
 </tr>
 </table>
+
+---
+
+## 💼 Industry Experience
+
+### 🔬 Machine Learning Engineer @ Jupiter AI Labs
+
+**🛰️ Computer Vision Solution**
+Engineered a full-stack solution for automated lawn area measurement. Fine-tuned YOLOv8 on 5,000+ aerial images achieving **87% mAP accuracy**. Deployed as Dockerized FastAPI on AWS Elastic Beanstalk with **450ms response time**, handling **1,000+ daily requests**.
+
+**🏥 AI Healthcare Chatbot**
+Architected an AI chatbot using RAG pipeline, integrating RASA for intent classification with GPT-3.5 for natural language generation. Processed 50,000 medical documents into ChromaDB vector database, achieving:
+- ✨ **68% reduction in incorrect information**
+- 🎯 **92% intent accuracy**
 
 ---
 
@@ -60,13 +90,34 @@ I'm a **Robotics MS student at Arizona State University** focused on building au
 
 **Mobile Manipulation System**
 
-ROS 2 integration of 12-DOF quadruped + 6-DOF UR5 arm with Flask web interface for real-time control.
+ROS 2 integration of 12-DOF quadruped + 6-DOF UR5 arm with custom control modules and DDS communication. Built Flask web interface with WebSocket communication for real-time metrics.
 
 ⚡ **Reduced experiment time: 45min → 8min**
 
 **Tech**: ROS 2, DDS, Flask, WebSockets
 
 </td>
+<td width="50%" valign="top">
+
+### 🗺️ Drift-Reduced Semantic Visual Odometry
+
+<div align="center">
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQzNnNoc2F3emZxOW84b2RlZnNjZzh3MGx3eHh4dWFsNXUxaGRvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/69iv77x8e5NMA/giphy.gif" width="400" height="220">
+</div>
+
+**Neural Visual Navigation**
+
+Co-developed novel system combining OCC-VO feature tracking with UC-NeRF neural network to refine camera position.
+
+📊 **34% position error reduction**  
+🎯 **IoU: 0.78 vs 0.51 in textureless environments**
+
+**Tech**: PyTorch, NeRF, Visual Odometry
+
+</td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🐢 Nav-Fusion: TurtleBot4 Autonomous Navigation
@@ -77,7 +128,7 @@ ROS 2 integration of 12-DOF quadruped + 6-DOF UR5 arm with Flask web interface f
 
 **Multi-Sensor Navigation Stack**
 
-RPLIDAR + OAK-D + IMU fusion with EKF, Cartographer SLAM, and Nav2 planning.
+Deployed Nav2 stack on TurtleBot4, fusing RPLIDAR, OAK-D camera, and IMU data with Extended Kalman Filter. Configured Cartographer SLAM (5cm resolution) and DWB path planner with custom recovery strategies.
 
 📍 **3cm positioning accuracy**  
 ✅ **95% navigation success rate**
@@ -85,10 +136,6 @@ RPLIDAR + OAK-D + IMU fusion with EKF, Cartographer SLAM, and Nav2 planning.
 **Tech**: ROS 2, Nav2, Cartographer, EKF
 
 </td>
-
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 🎵 VocaLift - Assistive Audio Translation
@@ -99,7 +146,7 @@ RPLIDAR + OAK-D + IMU fusion with EKF, Cartographer SLAM, and Nav2 planning.
 
 **🏆 Best Hack for Social Good - DevHacks ASU**
 
-Text-to-hum and hum-to-text translation tool using LSTM over Mel-spectrograms.
+Engineered full-cycle pipeline to convert text-to-hum and hum-to-text using LSTM translator over Mel-spectrograms. Leveraged Audiocraft for high-quality audio generation and librosa for real-time pitch extraction.
 
 🎤 **Real-time pitch extraction**  
 🔊 **High-quality audio generation**  
@@ -108,26 +155,6 @@ Text-to-hum and hum-to-text translation tool using LSTM over Mel-spectrograms.
 **Tech**: LSTM, Audiocraft, librosa, Flask
 
 </td>
-<td width="50%" valign="top">
-
-### 🗺️ Drift-Reduced Semantic Visual Odometry
-
-<div align="center">
-<!-- <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnk1M21lejI0dXgyNHZkMHE4Y2VqbXZzZWZoY3Uzcms0bWgwNXplOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cmyrAFR9GcuJQ2AumN/giphy.gif" width="400" height="220"> -->
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQzNnNoc2F3emZxOW84b2RlZnNjZzh3MGx3eHh4dWFsNXUxaGRvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/69iv77x8e5NMA/giphy.gif" width="400" height="220">
-</div>
-
-**Neural Visual Navigation**
-
-OCC-VO + UC-NeRF fusion system for urban navigation.
-
-📊 **34% position error reduction**  
-🎯 **IoU: 0.78 vs 0.51 in textureless environments**
-
-**Tech**: PyTorch, NeRF, Visual Odometry
-
-</td>
-
 </tr>
 
 <tr>
@@ -141,7 +168,7 @@ OCC-VO + UC-NeRF fusion system for urban navigation.
 
 **AI Medical Assistant**
 
-RASA + GPT-3.5 pipeline with ChromaDB vector database processing 50K medical documents.
+RASA + GPT-3.5 pipeline with ChromaDB vector database processing 50K medical documents with strict retrieval guardrails.
 
 ✨ **68% reduction in incorrect information**  
 🎯 **92% intent accuracy**
@@ -169,15 +196,6 @@ YOLOv8 model trained on 5K+ aerial images, deployed as FastAPI service on AWS.
 
 </td>
 </tr>
-
-<tr>
-<td width="50%" valign="top">
-
-</td>
-<td width="50%" valign="top">
-
-</td>
-</tr>
 </table>
 
 <div align="center">
@@ -188,44 +206,63 @@ YOLOv8 model trained on 5K+ aerial images, deployed as FastAPI service on AWS.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ My Arsenal of Tools
 
 <div align="center">
 
+### 🤖 Robotics & AI/ML Stack
+
 <table>
 <tr>
-<td width="33%" align="center">
+<td width="50%" align="center">
 
-### 🤖 **Robotics**
-
-<img src="https://media.giphy.com/media/9lnR3gpBHF5YUCwfn2/giphy.gif" width="220" height="160">
-
-ROS/ROS 2 • ZMQ • MuJoCo  
-SLAM • Sensor Fusion (EKF/UKF)  
-Nav2 • Cartographer • ORB-SLAM
-
-</td>
-<td width="33%" align="center">
-
-### 🧠 **AI/ML**
-
-<img src="https://media.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="220" height="160">
-
-PyTorch • TensorFlow • CUDA  
-RL: PPO, GAE  
-YOLOv8 • Computer Vision  
-NLP: Transformers, RAG
+**🦾 Robotics & Control**
+```yaml
+Frameworks: ROS/ROS 2, ZMQ
+Simulation: MuJoCo, Gazebo, Isaac Sim
+SLAM: Cartographer, ORB-SLAM
+Navigation: Nav2, AMCL
+Sensor Fusion: EKF, UKF
+CAD: SolidWorks, CATIA v5
+```
 
 </td>
-<td width="33%" align="center">
+<td width="50%" align="center">
 
-### ☁️ **Cloud/DevOps**
+**🧠 AI/ML**
+```python
+Deep Learning: PyTorch, TensorFlow, CUDA
+RL: PPO, SAC, TD3, GAE
+Computer Vision: YOLOv8, OpenCV, Detectron2
+NLP: Transformers, RAG, LangChain
+Time-Series: AutoTS, LSTMs, ACF
+Vector DBs: ChromaDB
+```
 
-<img src="https://media.giphy.com/media/n6mEMqAuYOQ8l8qcEE/giphy.gif" width="220" height="160">
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
 
-AWS (EC2, S3, Auto Scaling)  
-Docker • CI/CD • Ansible  
-Flask • WebSockets • REST APIs
+**☁️ Cloud & DevOps**
+```bash
+Cloud: AWS (EC2, S3, SageMaker, Lambda)
+       GCP (Cloud Run, Vertex AI)
+Containers: Docker, Kubernetes
+CI/CD: GitHub Actions, Ansible
+Monitoring: Prometheus, Grafana
+```
+
+</td>
+<td width="50%" align="center">
+
+**💻 Web & APIs**
+```javascript
+Backend: Flask, FastAPI, RESTful APIs
+Frontend: React, WebSockets, Plotly.js
+Databases: PostgreSQL, MongoDB, Redis
+Protocols: DDS, ZMQ
+```
 
 </td>
 </tr>
@@ -233,13 +270,15 @@ Flask • WebSockets • REST APIs
 
 ### 💻 Languages & Tools
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,pytorch,tensorflow,ros,opencv,aws,docker,javascript,matlab,bash,git,github,linux,postgres,fastapi&perline=9" />
+<img src="https://skillicons.dev/icons?i=python,cpp,c,pytorch,tensorflow,ros,opencv,aws,gcp,docker,kubernetes,javascript,matlab,bash,git,github,linux,postgres,mongodb,redis,fastapi,grafana&perline=11" />
+
+**Python** & **C++** are my daily drivers. Everything else is a tool I picked up along the way.
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats (Because Numbers Are Fun)
 
 <div align="center">
   
@@ -258,54 +297,61 @@ Flask • WebSockets • REST APIs
 
 ---
 
-## 🔬 Currently Working On
-
-<table align="center">
-<tr>
-<td width="50%">
-
-<div align="center">
-<img src="https://media.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif" width="400" height="220">
-</div>
-
-**🦾 Research**
-- Physical Reservoir Computing for soft robotics
-- Multi-agent RL for quadruped locomotion
-- Sim-to-real transfer with domain randomization
-
-</td>
-<td width="50%">
-
-<div align="center">
-<img src="https://media.giphy.com/media/LKvHJSPgCj4BjF1F5e/giphy.gif" width="400" height="220">
-</div>
-
-**🚀 Learning**
-- Advanced RL algorithms (SAC, TD3)
-- 3D reconstruction & NeRF
-- Distributed robotics systems
-
-</td>
-</tr>
-</table>
+## 🎯 Current Focus & What's Next
 
 ```python
-interests = {
-    "looking_for": ["Robotics research collaborations", "ML/RL projects"],
-    "open_to": ["Full-time opportunities (2026)", "Research internships", "PhD opportunities (2026)"],
-    "contact": "jeevanhm308@gmail.com"
-}
+class CurrentMission:
+    def __init__(self):
+        self.status = "Actively Building 🔨"
+        self.focus_areas = {
+            "research": [
+                "Physical Reservoir Computing for soft robotics",
+                "Multi-agent RL for quadruped locomotion",
+                "Sim-to-real transfer with domain randomization"
+            ],
+            "side_projects": [
+                "Open-source ROS2 perception stack",
+                "Personal quadruped robot project",
+                "Tech blogging on robotics & AI"
+            ],
+            "learning": [
+                "Advanced RL algorithms (SAC, TD3)",
+                "3D reconstruction & NeRF",
+                "Distributed robotics systems"
+            ]
+        }
+    
+    def looking_for(self):
+        return {
+            "opportunities": [
+                "Full-time roles (May 2026)",
+                "Research internships",
+                "PhD opportunities (2026)"
+            ],
+            "collaborations": [
+                "Robotics research projects",
+                "Open-source contributions",
+                "ML/RL interesting problems"
+            ],
+            "contact": "jeevanhm308@gmail.com"
+        }
 ```
 
 ---
 
-## 📫 Let's Connect!
+## 📫 Let's Build Something Cool Together!
 
 <div align="center">
 
+I'm always down to chat about:
+
+**🤖 Robots that actually work** • **🧠 RL algorithms that don't diverge** • **🌉 Closing the sim-to-real gap** • **🔬 Research collaboration ideas** • **☕ Why your robot is misbehaving**
+
+<br>
+
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="100" height="100">
 
@@ -313,7 +359,15 @@ interests = {
 [/in/jeevanhm](https://linkedin.com/in/jeevanhm)
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
+
+<img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="100" height="100">
+
+**YouTube**  
+[@jeevanhm3872](https://www.youtube.com/@jeevanhm3872)
+
+</td>
+<td align="center" width="25%">
 
 <img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="100" height="100">
 
@@ -321,7 +375,7 @@ interests = {
 [jeevan-hm.vercel.app](https://jeevan-hm.vercel.app)
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 <img src="https://media.giphy.com/media/6wcBC9tsubD5jrDL6g/giphy.gif" width="100" height="100">
 
@@ -334,12 +388,20 @@ interests = {
 
 <br>
 
+<img src="https://komarev.com/ghpvc/?username=Jeevan-HM&label=Profile%20Views&color=CBA6F7&style=flat" alt="Profile Views" />
+
+<br><br>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Thanks%20for%20Visiting!&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%"/>
 
 ---
+
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+
+---
 
 **⭐ From [Jeevan-HM](https://github.com/Jeevan-HM) • Building the future of intelligent robotics 🤖**
 
-</div>
+*"Making robots smarter, one gradient descent at a time."*
 
+</div>
